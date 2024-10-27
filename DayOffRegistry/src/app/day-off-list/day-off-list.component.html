@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="col-8 offset-4">
+        <h2>Szabadság nyilvántartás</h2>
+        <button (click)="GetData()" class="btn btn-info">Open</button>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-8 offset-2">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Név</th>
+                    <th>Év</th>
+                    <th>Tavalyi szabadság</th>
+                    <th>Alapszabadság</th>
+                    <th>További szabadság</th>
+                    <th>Összes szabadság</th>
+                    <th>Összes elhasznált</th>
+                    <th>Maradt szabadság</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of userDaysOffList">
+                    <td>{{user.id}}</td>
+                    <td>{{user.name}}</td>
+                    <td>{{user.year}}</td>
+                    <td>{{user.lastYearDays}}</td>
+                    <td>{{user.baseDays}}</td>
+                    <td>{{user.additionaDays}}</td>
+                    <td>{{user.totalDays}}</td>
+                    <td>{{user.spentDays}}</td>
+                    <td>{{user.daysLeft}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- <pre>
+    {{userDaysOffList | json }}
+</pre> -->

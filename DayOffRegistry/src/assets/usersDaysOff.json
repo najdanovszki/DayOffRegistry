@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Peti",
+      "year": 2024,
+      "lastYearDays": 1,
+      "baseDays": 20,
+      "additionaDays": 8,
+      "totalDays": 29,
+      "spentDays": 0,    
+      "daysLeft": 28
+    },
+    {
+      "id": 2,
+      "name": "Zoli",
+      "year": 2024,
+      "lastYearDays": 0,
+      "baseDays": 20,
+      "additionaDays": 8,
+      "totalDays": 28,
+      "spentDays": 2,    
+      "daysLeft": 26
+    },
+    {
+      "id": 3,
+      "name": "Misi",
+      "year": 2024,
+      "lastYearDays": 0,
+      "baseDays": 20,
+      "additionaDays": 8,
+      "totalDays": 28,
+      "spentDays": 0,    
+      "daysLeft": 28
+    }
+  ]
+}
